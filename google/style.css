@@ -1,0 +1,195 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100%;
+}
+table
+{
+    width: 100%;
+}
+table .top-right
+{
+    text-align: right;
+    padding: 20px;
+}
+table .top-left
+{
+    text-align: left;
+    padding: 20px;
+}
+table a
+{
+   font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none ;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.user
+{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+.one
+{
+    
+    color:blue;
+}
+.two
+{
+    
+    color:red;
+}
+.three
+{
+    
+    color:gold;
+}
+.four
+{
+    
+    color:blue;
+}
+.five
+{
+    
+    color:green;
+}
+.six
+{
+    
+    color:red;
+}
+.google
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top: 30%;
+}
+.search
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 44%;
+   
+    width: 30%;
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 15px;
+}
+.search input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding-left: 50px;
+
+}
+.search i 
+{
+    position: absolute;
+    top: 11px;
+    left: 10px;
+}
+.mic
+{
+    height:25px;
+    position:absolute;
+    top:42%;
+    padding-right: 20px;
+    right:36.9%;
+}
+.cam
+{
+height:20px;
+position:absolute;
+top:42.5%;
+
+right:35.6%;
+}
+.button
+{
+    position:absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 53%;
+}
+.button a
+{
+    text-decoration:none ;
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+    text-decoration: none;
+  
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(236, 236, 236);
+}
+
+p
+{
+    position:absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 59%;
+}
+p a
+{
+    
+    text-decoration:none ;
+    font-size: 12px;
+    text-decoration: none;
+}
+.footer
+{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    position:absolute;
+    bottom: 0%;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.footer2
+{
+    height: 50px;
+    width: 100%;
+    background-color: #f2f2f2;
+    position:absolute;
+    bottom: 0%;
+    border-top:1px solid rgb(247, 247, 247) ;
+}
+.footer span
+{
+    position: absolute;
+    top: 18px;
+    padding-left:25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+table .bottom-left
+{
+    text-align: left;
+    padding: 12px 20px;
+}
+table .bottom-right
+{
+    text-align: right;
+    padding: 12px 20px;
+}
