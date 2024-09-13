@@ -1,0 +1,87 @@
+*
+{
+	margin:0%;
+	padding:0%;
+	box-sizing:border-box;
+}
+body
+{
+	background-color: black;
+}
+.banner 
+{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/banner.jpg');
+	margin:auto;
+	background-repeat:no-repeat;
+	height:700px;
+	width:70%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	left:50%;
+	top:50%;
+	background-size:cover;
+	box-sizing:border-box;
+}
+.logo
+{
+	background-image: url(images/logo.png);
+	margin: 0%;
+	padding:0% ;
+	position: absolute;
+	height: 190px;
+	width: 190px;
+	background-size:cover;
+	transform: translate(-50%,-50%);
+	right: 10%;
+	top: 24%;
+
+}
+.content
+{
+	position: absolute;
+	top: 25%;
+	left: 10%;
+}
+.heading
+{
+	font-size: 80px;
+	color: white;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 35%;
+	top:35%;
+}
+.para
+{
+	font-size: 38px;
+	color: white;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	left: 33%;
+	top:48%;
+	
+}
+.button
+{
+	
+	
+	margin-top:20px ;
+	position: absolute;
+	font-size: 25px;
+	transform: translate(-50%,-50%);
+	left:22%;
+	top: 55%;
+	/* color:white;
+	background-color: red;
+	text-decoration: none; */
+
+
+}
+.button a
+{
+	background-color: red;
+	text-decoration: none;
+	color: white;
+	padding: 20px 20px;
+}
