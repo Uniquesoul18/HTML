@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)); */
+}
+
+.form {
+    height: 600px;
+    width: 420px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.15);
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+    /* border-radius: 10px; */
+    border: 3px solid rgb(255, 255, 255);
+    top: 50%;
+    left: 20%;
+}
+.form-img
+{
+    height: 250px;
+    width:100% ;
+    /* background-image: url(images/vr-box.jpg); */
+}
+.img-vr
+{
+    height: 100%;
+    width:100%;
+    background-image: url(images/vr-box.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tag
+{
+    height: 38px;
+    width: 90px;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:6%;
+    left: 86%;
+    border-radius: 6px;  
+}
+span
+{
+    font-family: montserrat;
+    font-size: 18px;
+    text-align: center;
+     font-weight: 600;
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.text-form
+{
+    height: 395px;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+h1
+{
+    text-align: center;
+    color: #ffffff;
+    font-family: montserrat;
+    font-weight: 550;
+    font-size:26px;
+    margin-top: 15px;
+}
+p
+{
+    text-align: center;
+    color: #ffffff;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 18px;
+    word-spacing: 10px;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+.button
+{
+   
+    margin-left: 25px; 
+    margin-top: 30px;
+}
+.button a
+{
+    /* text-decoration: none; */
+    /* color: #ffffff; */
+    /* background-color: #de8e0c; */
+    background-color:#de8e0c;
+	text-decoration: none;
+	color: white;
+    padding: 10px 20px;
+    height: 29px;
+    width: 150px;
+    border-radius: 8px;
+    
+}
+
